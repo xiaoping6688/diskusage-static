@@ -1,6 +1,8 @@
 node-diskusage
 ==============
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jduncanator/node-diskusage.svg)](https://greenkeeper.io/)
+
 <p align="center">
   <a href="https://www.npmjs.com/package/diskusage?activeTab=dependencies"><img src="https://img.shields.io/david/jduncanator/node-diskusage.svg" alt="npm Dependencies" title="npm Dependencies" /></a>
   <a href="https://www.npmjs.com/package/diskusage"><img src="https://img.shields.io/npm/v/diskusage.svg" alt="npm Version" title="npm Version" /></a>
