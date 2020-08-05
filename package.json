@@ -4,15 +4,27 @@
   "description": "Get total diskspace and free diskspace using bindings around platform specific calls.",
   "main": "index.js",
   "typings": "index.d.ts",
+  "gypfile": true,
+  "scripts": {
+    "install": "prebuild-install || node-gyp rebuild",
+    "rebuild": "prebuild --compile",
+    "prebuild": "prebuild -t 4.2.12 -r electron -u 16eac0d674ed0bbd3707c547ebcbcc5882a17a2a --strip --verbose"
+  },
   "dependencies": {
-    "es6-promise": "^4.2.5"
+    "es6-promise": "^4.2.5",
+    "nan": "^2.14.0",
+    "prebuild": "^10.0.0"
   },
   "devDependencies": {
-    "eslint": "^6.0.1"
+    "eslint": "^6.0.1",
+    "prebuild-install": "^5.3.5"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/jduncanator/node-diskusage.git"
+    "url": "https://github.com/xiaoping6688/diskusage-static.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "keywords": [
     "disk",
@@ -25,10 +37,10 @@
     "free",
     "space"
   ],
-  "author": "jduncanator",
+  "author": "jduncanator,xiaoping6688",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/jduncanator/node-diskusage/issues"
+    "url": "https://github.com/xiaoping6688/diskusage-static/issues"
   },
-  "homepage": "https://github.com/jduncanator/node-diskusage"
+  "homepage": "https://github.com/xiaoping6688/diskusage-static"
 }
