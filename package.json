@@ -8,7 +8,7 @@
   "scripts": {
     "install": "prebuild-install || node-gyp rebuild",
     "rebuild": "prebuild --compile",
-    "prebuild": "prebuild -t 4.2.12 -r electron -u 16eac0d674ed0bbd3707c547ebcbcc5882a17a2a --strip --verbose"
+    "prebuild": "prebuild -t 4.2.12 -r electron --strip --verbose"
   },
   "dependencies": {
     "es6-promise": "^4.2.5",

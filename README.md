@@ -7,6 +7,8 @@ node-diskusage
   <a href="https://npm-stat.com/charts.html?package=diskusage"><img src="https://img.shields.io/npm/dw/diskusage.svg" alt="npm Downloads" title="npm Downloads" /></a>
 </p>
 
+>diskusage-static is the statics of [diskusage](https://github.com/jduncanator/node-diskusage), But a better prebuild library is [node-gyp-build](https://github.com/prebuild/node-gyp-build) to prebuilds for your native modules.
+
 This module implements platform specific bindings to obtain disk usage information on Windows and POSIX platforms. Windows support is backed by [GetDiskFreeSpaceEx](http://msdn.microsoft.com/en-us/library/windows/desktop/aa364937/) and POSIX is implemented with [statvfs](http://www.freebsd.org/cgi/man.cgi?query=statvfs).
 
 Installation
